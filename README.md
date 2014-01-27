@@ -42,11 +42,11 @@ This plugin depends on the main "SyntaxHighlighter Evolved" plugin. Please downl
 
 ## Frequently Asked Questions 
 
-# Missings selectors or values like "h1", @keyframes etc...
+### Missings selectors or values like "h1", @keyframes etc...
 
 It lacks a lot of tags, values ​​and selectors. This is not my theme. The problem is the "SyntaxHighlighter Evolved" plugin for which many tags are still missing. I left messages on the forum plugin, I wait for answers :)
 
-# Can I add tags myself
+### Can I add tags myself
 
 Of course you can but it's a bit dangerous and complicated. You have to add the tags in the  "SyntaxHighlighter Evolved" core plugin and if the author release an update, you'll loose your tags. 
 I'll soon write a tutorial in my own blog if you still want to add tags. I'll make a new release of my plugin to notify you.
