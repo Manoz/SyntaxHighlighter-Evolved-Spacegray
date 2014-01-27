@@ -6,7 +6,7 @@
  * based on "Spacegray", the lovely Theme  for Sublime Text 2/3.
  *
  * Plugin Name:       SyntaxHighlighter Evolved - Spacegray
- * Plugin URI:        http://mwanoz.fr/
+ * Plugin URI:        https://github.com/Manoz/SyntaxHighlighter-Evolved-Spacegray
  * Description:       A nice Color Scheme for "SyntaxHighlighter Evolved" based on "Spacegray", the lovely Theme  for Sublime Text 2/3.
  * Version:           1.0.0
  * Author:            Manoz
