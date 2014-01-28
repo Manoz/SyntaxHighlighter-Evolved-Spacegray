@@ -3,23 +3,13 @@
  * Original Sublime text 3 theme : https://github.com/kkga/spacegray
  *
  * @version
- * 1.0 (01 27 2014)
+ * 1.0.1 (01 28 2014)
  *
  */
 
 .syntaxhighlighter {
     padding: 5px 0 !important;
     background-color: #2b303b !important;
-}
-
-.syntaxhighlighter table,
-.syntaxhighlighter table td,
-.syntaxhighlighter table tr,
-.syntaxhighlighter table tbody,
-.syntaxhighlighter table thead,
-.syntaxhighlighter table caption,
-.syntaxhighlighter textarea {
-    font-family: 'Source Code Pro',sans-serif;
 }
 
 .syntaxhighlighter .line.alt1 {
@@ -92,6 +82,7 @@
     color: #ffe862 !important;
 }
 
+/* Plain Stuff */
 .syntaxhighlighter .plain,
 .syntaxhighlighter .plain a {
     color: #c0c5ce !important;
@@ -112,26 +103,7 @@
     color: #7fa1b3 !important;
 }
 
-.syntaxhighlighter .css.keyword,
-.syntaxhighlighter .css.keyword a {
-    color: #c0c5ce !important;
-}
-
-.syntaxhighlighter .xml.keyword,
-.syntaxhighlighter .xml.keyword a {
-    color: #bf616a !important;
-}
-
-.syntaxhighlighter .bash.keyword,
-.syntaxhighlighter .bash.keyword a {
-    color: #b48ead !important;
-}
-
-.syntaxhighlighter .css.value,
-.syntaxhighlighter .css.value a {
-    color: #96b5b4 !important;
-}
-
+/* Comments stuff */
 .syntaxhighlighter .comments,
 .syntaxhighlighter .comments a {
     color: #777777 !important;
@@ -147,11 +119,7 @@
     color: #65737e !important;
 }
 
-.syntaxhighlighter .php.script,
-.syntaxhighlighter .php.script a {
-    color: #d08770 !important;
-}
-
+/* Strings stuff */
 .syntaxhighlighter .string,
 .syntaxhighlighter .string a {
     color: #a3be8c !important;
@@ -162,8 +130,24 @@
     color: #a3be8c !important;
 }
 
+/* Keywords stuff */
 .syntaxhighlighter .keyword {
     color: #bf616a !important;
+}
+
+.syntaxhighlighter .css.keyword,
+.syntaxhighlighter .css.keyword a {
+    color: #c0c5ce !important;
+}
+
+.syntaxhighlighter .xml.keyword,
+.syntaxhighlighter .xml.keyword a {
+    color: #bf616a !important;
+}
+
+.syntaxhighlighter .bash.keyword,
+.syntaxhighlighter .bash.keyword a {
+    color: #b48ead !important;
 }
 
 .syntaxhighlighter .php.keyword {
@@ -182,8 +166,14 @@
     color: #bf616a !important;
 }
 
+/* Values stuff */
 .syntaxhighlighter .value {
     color: #f7e741 !important;
+}
+
+.syntaxhighlighter .css.value,
+.syntaxhighlighter .css.value a {
+    color: #96b5b4 !important;
 }
 
 .syntaxhighlighter .functions {
@@ -206,6 +196,11 @@
     font-weight: 600 !important;
     color: #96dd3b !important;
     background-color: none !important;
+}
+
+.syntaxhighlighter .php.script,
+.syntaxhighlighter .php.script a {
+    color: #d08770 !important;
 }
 
 .syntaxhighlighter .color1,

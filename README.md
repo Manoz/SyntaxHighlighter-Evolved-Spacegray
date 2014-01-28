@@ -42,6 +42,10 @@ This plugin depends on the main "SyntaxHighlighter Evolved" plugin. Please downl
 
 ## Changelog
 
+### 1.0.1 
+* Clean all the css files
+* Remove Source Sans Pro font.
+
 ### 1.0
 * First release \o/
 

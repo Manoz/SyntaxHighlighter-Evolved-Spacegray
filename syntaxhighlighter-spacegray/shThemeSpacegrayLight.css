@@ -3,23 +3,13 @@
  * Original Sublime text 3 theme : https://github.com/kkga/spacegray
  *
  * @version
- * 1.0 (01 27 2014)
+ * 1.0.1 (01 28 2014)
  *
  */
 
 .syntaxhighlighter {
     padding: 5px 0 !important;
     background-color: #eff1f5 !important;
-}
-
-.syntaxhighlighter table,
-.syntaxhighlighter table td,
-.syntaxhighlighter table tr,
-.syntaxhighlighter table tbody,
-.syntaxhighlighter table thead,
-.syntaxhighlighter table caption,
-.syntaxhighlighter textarea {
-    font-family: 'Source Code Pro',sans-serif;
 }
 
 .syntaxhighlighter .line.alt1 {
@@ -92,6 +82,7 @@
     color: #ffe862 !important;
 }
 
+/* Plain Stuff */
 .syntaxhighlighter .plain,
 .syntaxhighlighter .plain a {
     color: #4e5b66 !important;
@@ -100,6 +91,11 @@
 .syntaxhighlighter .xml.plain,
 .syntaxhighlighter .xml.plain a {
     color: #4e5b66 !important;
+}
+
+.syntaxhighlighter .css.plain,
+.syntaxhighlighter .css.plain a {
+    color: #d08770 !important;
 }
 
 .syntaxhighlighter .php.plain,
@@ -112,9 +108,31 @@
     color: #4e5b66 !important;
 }
 
-.syntaxhighlighter .css.plain,
-.syntaxhighlighter .css.plain a {
-    color: #d08770 !important;
+/* Comments stuff */
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a {
+    color: #a7adba !important;
+}
+
+/* Strings stuff */
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a {
+    color: #a3be8c !important;
+}
+
+.syntaxhighlighter .xml.string,
+.syntaxhighlighter .xml.string a {
+    color: #a3be8c !important;
+}
+
+.syntaxhighlighter .xml.string,
+.syntaxhighlighter .xml.string a {
+    color: #a3be8c !important;
+}
+
+/* Keywords stuff */
+.syntaxhighlighter .keyword {
+    color: #bf616a !important;
 }
 
 .syntaxhighlighter .css.keyword,
@@ -132,35 +150,6 @@
     color: #b48ead !important;
 }
 
-.syntaxhighlighter .css.value,
-.syntaxhighlighter .css.value a {
-    color: #96b5b4 !important;
-}
-
-.syntaxhighlighter .comments,
-.syntaxhighlighter .comments a {
-    color: #a7adba !important;
-}
-
-.syntaxhighlighter .string,
-.syntaxhighlighter .string a {
-    color: #a3be8c !important;
-}
-
-.syntaxhighlighter .xml.string,
-.syntaxhighlighter .xml.string a {
-    color: #a3be8c !important;
-}
-
-.syntaxhighlighter .xml.string,
-.syntaxhighlighter .xml.string a {
-    color: #a3be8c !important;
-}
-
-.syntaxhighlighter .keyword {
-    color: #bf616a !important;
-}
-
 .syntaxhighlighter .preprocessor {
     color: #91bb9e !important;
 }
@@ -171,6 +160,12 @@
 
 .syntaxhighlighter .value {
     color: #f7e741 !important;
+}
+
+/* Values stuff */
+.syntaxhighlighter .css.value,
+.syntaxhighlighter .css.value a {
+    color: #96b5b4 !important;
 }
 
 .syntaxhighlighter .functions {
